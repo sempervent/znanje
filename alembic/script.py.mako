@@ -1,5 +1,5 @@
 """${message}
-znaje knowledge platform.
+znanje knowledge platform - database migration script
 
 Revision ID: ${up_revision}
 Revises: ${down_revision | comma,n}
