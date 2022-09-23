@@ -6,3 +6,7 @@ services:
     context: ./db
     volumes:
       - ./db:/docker-entrypoint-initdb.d/
+      - pgvolume:/var/lib/postgresql/data
+
+volumes:
+  pgvolume:
